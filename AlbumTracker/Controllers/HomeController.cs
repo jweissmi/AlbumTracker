@@ -15,14 +15,14 @@ namespace AlbumTracker.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Not Just Another AlbumTracker";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "AlbumTracker";
 
             return View();
         }
