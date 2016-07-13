@@ -3,27 +3,30 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h2>AlbumTracker.com</h2>
+    <p class="lead">AlbumTracker.com is a free database for cataloging your album collection.</p>
 </div>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
         <h2>Getting started with AlbumTracker</h2>
         <p>
             AlbumTracker gives you a powerful way to track your album collection.
         </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865" target="_blank">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" @Html.ActionLink("Learn More >>", "About", "Home")</a></p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
         <h2>Find Artists</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866" target="_blank">Learn more &raquo;</a></p>
+        <p>Browse Artists from A to Z at artistdirect.com.</p>
+        <p><a class="btn btn-default" href="http://www.artistdirect.com/" target="_blank">Learn more &raquo;</a></p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
         <h2>Add More Genres</h2>
         <p>Music Genre List is the most comprehensive list of genres of music available on the Internet.  Use it to sort your albums in AlbumTracker</p>
         <p><a class="btn btn-default" href="http://www.musicgenreslist.com/" target="_blank">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-3">
+        <a class="twitter-timeline" href="https://twitter.com/hashtag/artistdirect" data-widget-id="753037375463387137">#artistdirect Tweets</a>
+        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
     </div>
 </div>
