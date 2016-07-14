@@ -13,6 +13,13 @@ namespace AlbumTracker.Controllers
             return View();
         }
 
+        public ActionResult GetStarted()
+        {
+            ViewBag.Message = "The Legal Stuff";
+
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Not Just Another AlbumTracker";
